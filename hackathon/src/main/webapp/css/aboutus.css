@@ -1,0 +1,74 @@
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-image: url('https://example.com/background-image.jpg'); /* Replace with a suitable banking background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header, .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .main-content {
+            padding: 40px 5%;
+        }
+
+        .banking-image {
+            width: 100%;
+            max-width: 400px;
+            margin: 20px 0;
+            transition: transform 0.2s;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .banking-image:hover {
+            transform: scale(1.1);
+        }
+
+        h1, h2 {
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .owner {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            margin-left:150px;
+        }
+
+        .owner img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            transition: transform 0.2s;
+        }
+
+        .owner img:hover {
+            transform: scale(1.1);
+        }
+
+        .owner-info {
+            flex: 1;
+            margin-left: 20px;
+        }

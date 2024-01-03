@@ -1,0 +1,53 @@
+
+        .container {
+            background-color: #f5f5f5;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            position: relative;
+            max-width: 600px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            border: none;
+            border-bottom: 2px solid #ccc;
+            border-radius: 0;
+            box-shadow: none;
+            transition: border-color 0.3s; /* Add transition */
+        }
+
+        .form-control:hover,
+        .form-control:focus {
+            border-color: #007bff; /* Change border color on hover/focus */
+        }
+
+        .btn-primary {
+        width:100%;
+            background-color: #007bff;
+            border: none;
+            transition: background-color 0.3s; /* Add transition */
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow on hover */
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logo img {
+            max-width: 100px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: bold; /* Make the font bolder */
+        }

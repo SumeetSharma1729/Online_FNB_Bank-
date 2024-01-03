@@ -1,0 +1,67 @@
+
+.box{
+	display:flex;
+	justify-content:space-around;
+}
+.banking-container {
+            background-color: rgba(255, 255, 255, 0.9); 
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            width: 500px;
+            transition: transform 0.2s;
+            margin-top:55px;
+        }
+
+        .banking-container:hover {
+            transform: scale(1.05);
+        }
+
+        .banking-container h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .banking-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .banking-form label {
+            margin-bottom: 5px;
+            color: #555;
+            font-weight: bold;
+        }
+
+        .banking-form input {
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+        }
+
+        .banking-form input:hover {
+            border-color: #83a4d4;
+        }
+
+        .banking-form input:focus {
+            border-color: #83a4d4;
+            box-shadow: 0 0 10px rgba(131, 164, 212, 0.5);
+        }
+
+        .banking-form input[type="submit"] {
+            background: linear-gradient(90deg, #83a4d4, #b6fbff);
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+            font-weight: bold;
+        }
+
+        .banking-form input[type="submit"]:hover {
+            background: linear-gradient(90deg, #b6fbff, #83a4d4);
+            transform: translateY(-2px);
+        }
